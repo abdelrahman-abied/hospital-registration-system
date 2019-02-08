@@ -17,6 +17,8 @@ public class HospitalSystem {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        //the form appear to users to login into program
+        //by default user is admin and password is admin
     Login login=new Login();
     login.setVisible(true);
     }
